@@ -215,7 +215,7 @@ p < 0.5 → class = 0
 
 
 
-![image.png](attachment:3acf7a46-54c0-4e95-ba38-41801d7757c8.png)
+![image.png](/image/sigmoid function and Decision Bound.png)
 
 
 > > ### 예측 함수
