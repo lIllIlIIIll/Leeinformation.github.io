@@ -175,7 +175,7 @@ sigmoid 함수는 S자 모양의 곡선을 가지고 해당 곡선은 sigmoid �
 
 
 
-![image.png](attachment:9cba4c5e-a452-475d-bfdf-8764e12b642a.png)
+![image.png](/image/sigmoid function.png)
 
 
 > > ### 결정 경계
