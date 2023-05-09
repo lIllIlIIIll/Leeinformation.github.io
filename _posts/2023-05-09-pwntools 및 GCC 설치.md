@@ -166,7 +166,7 @@ https://sourceforge.net/projects/mingw-w64/files/
 시스템 변수에서 Path에 해당하는 값을 편집으로 다음과 같이 하나 추가한다.
 
 
-![image.png](/image/환경 변수 편집.png)
+![image.jpg](/image/환경 변수 편집.jpg)
 
 
 터미널을 열어 다음과 같은 명령어를 실행한다.
