@@ -200,6 +200,14 @@ pwntools과 바이너리 설치가 모두 끝났다.
 
 이제 여러 개발환경에서 pwntools 및 GCC로 C언어 컴파일이 가능하다.
 
+## GNU 설치
+
+위의 과정을 거친 후에도 binutils에 의한 에러가 뜬다면 직접 GNU를 설치해준다.
+
+ https://www.gnu.org/software/binutils/
+
+ 해당 url을 접속하여 binutils를 자신의 컴퓨터에 맞는 최신 버전을 다운 받아 위의 환경 변수 설정과 똑같이 적용한다.
+
 
 ## pwntools 기본 함수
 
