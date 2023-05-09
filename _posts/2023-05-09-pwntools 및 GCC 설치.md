@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "jupyter notebook 변환하기!"
+title:  "Pwntools 설치 및 GCC 설치"
 categories: coding
 tag: [python, blog, jekyll]
 toc: true
