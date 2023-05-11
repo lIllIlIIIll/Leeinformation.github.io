@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Pwntools 설치 및 GCC 설치"
-categories: coding
+categories: 
 tag: [python, blog, jekyll]
 toc: true
 author_profile: false
