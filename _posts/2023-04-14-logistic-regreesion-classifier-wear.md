@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Logistic Regression Classifier - weatherAUC"
-categories: Mushine Running
+categories: Machine Running
 tag: [python, blog, jekyll]
 toc: true
 author_profile: false
