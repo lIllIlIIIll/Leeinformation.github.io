@@ -256,6 +256,7 @@ sendline('A')
 sendafter('Lee''A')
 
 sendlineafter('Lee','A')
+```
 
 
 기본적으로 send가 들어가는 함수는 데이터를 프로세스에 전송하기 위해 사용된다.
