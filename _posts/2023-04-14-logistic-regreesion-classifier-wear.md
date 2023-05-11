@@ -2,7 +2,7 @@
 layout: single
 title:  "Logistic Regression Classifier - weatherAUC"
 categories: Machine Running
-tag: [python, blog, jekyll]
+tag: [python, blog, jekyll, Machine Running, Logistic Regression]
 toc: true
 author_profile: false
 ---
