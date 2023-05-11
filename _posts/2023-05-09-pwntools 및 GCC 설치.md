@@ -2,7 +2,7 @@
 layout: single
 title:  "Pwntools 설치 및 GCC 설치"
 categories: information security/hacking
-tag: [python, blog, jekyll]
+tag: [python, blog, jekyll, pwn, pwntools, gcc]
 toc: true
 author_profile: false
 ---
