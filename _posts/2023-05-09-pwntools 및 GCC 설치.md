@@ -192,7 +192,7 @@ g++ -v
 
 다음과 같은 창이 뜬다면 설치 완료
 
-![image.png](/image/gcc .png)
+![image.png](/image/gcc 버전 확인.png)
 
 pwntools과 바이너리 설치가 모두 끝났다.
 
