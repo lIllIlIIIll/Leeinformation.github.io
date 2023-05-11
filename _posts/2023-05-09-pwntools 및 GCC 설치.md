@@ -111,7 +111,7 @@ pwntools는 파이썬으로 익스플로잇을 수행할 수 있도록 도와주
 
 $ apt-get update
 
-$ $ apt-get install python3 python3-pip python3-dev git libssl-dev libffi-dev build-essential
+$ apt-get install python3 python3-pip python3-dev git libssl-dev libffi-dev build-essential
 
 $ python3 -m pip install --upgrade pip
 
@@ -166,7 +166,7 @@ https://sourceforge.net/projects/mingw-w64/files/
 시스템 변수에서 Path에 해당하는 값을 편집으로 다음과 같이 하나 추가한다.
 
 
-![image.jpg](/image/환경 변수 편집.jpg)
+![image.png](/image/환경 변수 편집.jpg)
 
 
 터미널을 열어 다음과 같은 명령어를 실행한다.
