@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  ""
+title:  "Wargame : shell_basic"
 categories: coding
 tag: [python, blog, jekyll]
 toc: true
