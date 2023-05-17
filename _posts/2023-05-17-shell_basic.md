@@ -262,3 +262,5 @@ p.interactive()
 
 ```
 
+![image.png](/image/shell_basic_shellcode.png)
+
