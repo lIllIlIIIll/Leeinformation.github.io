@@ -294,6 +294,7 @@ $ gcc -o no_canary canary.c -fno-stack-protector
 
 카나리 없이 컴파일 후 스택 버퍼 오버플로우를 발생시키면, **Segmentation fault**가 발생한다.
 
+![image.png](/image/no_canary.png)
 
 ``` bash
 
@@ -302,10 +303,6 @@ $ gcc -o canary canary.c
 ```
 
 해당 방법으로 컴파일 하였을 때, 카나리가 적용이 안된다면 다음과 같은 방법으로 카나리를 적용시킬 수 있다.
-
-
-
-
 
 
 
@@ -321,8 +318,10 @@ $ gcc -o canary canary.c -fstack-protector
 다시 카나리를 적용하여 컴파일을 하고 스택 버퍼 오버플로우를 발생시키면
 
 
-
 **stack smashing detected** 와 **Aborted** 에러가 발생한다.
+
+
+![image.png](/image/canary.png)
 
 
 위의 사진과 같이 에러가 발생하는데, **Aborted**에러는 안 나타날 수 있다.
@@ -344,6 +343,8 @@ pwndbg> r
 
 프롤로그 코드에 중단점을 지정하고 바이너리를 실행시킨다.
 
+![image.png](/image/canary_fs.png)
+
 
 위의 사진에서 main+8은 fs:[0x28]의 값을 읽어 rax 레지스터에 저장한다.
 
@@ -362,6 +363,8 @@ fs는 세그먼트 레지스터의 일종으로, 프로세스가 시작할 때 �
 
 rax를 보면 랜덤으로 생성된 값으로 변경된 것을 볼 수 있다.
 
+![image.png](/image/canary_rax.png)
+
 
 이제 중단점을 main+50에 설정하고 바이너리를 계속 실행시킨다.
 
@@ -372,6 +375,8 @@ rax를 보면 랜덤으로 생성된 값으로 변경된 것을 볼 수 있다.
 
 
 하지만, 두 값이 동일하지 않다면, __stack_chk_fail이 호출되며 프로그램이 강제 종료된다.
+
+![image.png](/image/canary_je.png)
 
 
 ### 카나리 생성 과정
@@ -413,6 +418,8 @@ catchpoint에 도달하였을 때, rdi의 값은 0x1002로 해당 값은 ARCH_SE
 
 카나리가 저장될 fs+0x28을 보면 아직 어떠한 값도 설정되어있지 않다.
 
+![image.png](/image/canary_TLS.png)
+
 
 ```bash
 
@@ -424,6 +431,9 @@ pwndbg> watch *(0x7ffff7faa740+0x28)
 
 
 이제 TLS+0x28의 값을 조회하면 카나리 값이 설정된 것을 볼 수 있다.
+
+
+![image.png](/image/canary_value.png)
 
 
 ### 카나리 우회
