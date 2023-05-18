@@ -82,7 +82,7 @@ author_profile: false
 ### C 코드 분석
 
 
-```C
+```c
 #include <fcntl.h>
 
 #include <seccomp.h>
