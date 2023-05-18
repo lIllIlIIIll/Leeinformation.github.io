@@ -83,6 +83,7 @@ author_profile: false
 
 
 ```c
+
 #include <fcntl.h>
 
 #include <seccomp.h>
@@ -178,6 +179,7 @@ void main(int argc, char *argv[]) {
   sc();
 
 }
+
 ```
 
 
