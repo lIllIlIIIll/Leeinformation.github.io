@@ -296,6 +296,8 @@ $ gcc -o no_canary canary.c -fno-stack-protector
 
 ![image.png](/image/no_canary.png)
 
+이제 카나리를 적용하여 컴파일을 한다.
+
 ``` bash
 
 $ gcc -o canary canary.c
