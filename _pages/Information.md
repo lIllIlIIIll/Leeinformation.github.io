@@ -1,6 +1,6 @@
 ---
 title: "정보/보안"
-permalink: categories/information/
+permalink: /categories/information
 layout: category
 author_profile: true
 taxonomy: 정보/보안
