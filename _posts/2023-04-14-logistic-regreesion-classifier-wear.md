@@ -1,5 +1,6 @@
 ---
 layout: single
+permalink: /MachineRunning/
 title:  "Logistic Regression Classifier - weatherAUC"
 categories: Machine-Running
 tag: [python, blog, jekyll, Machine Running, Logistic Regression]
