@@ -4,3 +4,7 @@ main:
     url: https://Leeinformation.github.io
   - title: "Category"
     url: /categories/
+  - title: "머신러닝"
+    url: /categories/MachineRunning
+  - title: "정보/보안"
+    url: /categories/information
