@@ -1,8 +1,7 @@
 ---
 layout: single
-permalink: /information/
 title:  "Stack Buffer Overflow & Stack Canary"
-categories: 정보/보안
+categories: information
 tag: [python, pwn, hacking]
 toc: true
 author_profile: true
