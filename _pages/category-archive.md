@@ -1,7 +1,9 @@
 ---
 title: "머신러닝"
-layout: categories
 permalink: /MachineRunning/
+layout: category
 author_profile: true
-sidebar_main: true
+taxonomy: 머신러닝
 ---
+
+파이썬 기반 머신러닝
