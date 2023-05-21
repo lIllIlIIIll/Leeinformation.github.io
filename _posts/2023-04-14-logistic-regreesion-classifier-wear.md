@@ -2,7 +2,7 @@
 layout: single
 permalink: /MachineRunning/
 title:  "Logistic Regression Classifier - weatherAUC"
-categories: Machine-Running
+categories: 머신러닝
 tag: [python, Machine Running, coding]
 toc: true
 author_profile: true
