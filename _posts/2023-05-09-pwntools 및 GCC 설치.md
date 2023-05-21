@@ -2,7 +2,7 @@
 layout: single
 permalink: /information/
 title:  "Pwntools 설치 및 GCC 설치"
-categories: security hacking
+categories: 정보/보안
 tag: [python, pwn, hacking]
 toc: true
 author_profile: true
