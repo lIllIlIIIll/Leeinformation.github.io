@@ -2,7 +2,7 @@
 main:
   - title: "Home"
     url: https://Leeinformation.github.io
-  - title: "Categories"
+  - title: "Category"
    url: /categories/
  - title: "Tags"
    url: /tags/
