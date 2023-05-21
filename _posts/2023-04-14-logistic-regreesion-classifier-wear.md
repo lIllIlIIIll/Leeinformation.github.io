@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Logistic Regression Classifier - weatherAUC"
-permalink: /MachineRunning/
+categories: Machine-Running
 tag: [python, Machine Running, coding]
 toc: true
 author_profile: true
