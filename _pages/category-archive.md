@@ -1,7 +1,7 @@
 ---
 title: "머신러닝"
-permalink: /MachineRunning/
-layout: single
+permalink: categories/MachineRunning/
+layout: category
 author_profile: true
 taxonomy: 머신러닝
 ---
