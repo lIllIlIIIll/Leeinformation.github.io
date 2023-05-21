@@ -1,10 +1,11 @@
 ---
 layout: single
+permalink: /information/
 title:  "Wargame : shell_basic"
 categories: coding
 tag: [python, blog, jekyll]
 toc: true
-author_profile: false
+author_profile: true
 ---
 
 <head>
