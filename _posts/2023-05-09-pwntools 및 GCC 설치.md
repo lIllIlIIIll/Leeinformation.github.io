@@ -1,8 +1,7 @@
 ---
 layout: single
-permalink: /information/
 title:  "Pwntools 설치 및 GCC 설치"
-categories: 정보/보안
+categories: information
 tag: [python, pwn, hacking]
 toc: true
 author_profile: true
