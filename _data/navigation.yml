@@ -3,6 +3,6 @@ main:
   - title: "Home"
     url: https://Leeinformation.github.io
   - title: "Category"
-   url: /categories/
- - title: "Tags"
-   url: /tags/
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
