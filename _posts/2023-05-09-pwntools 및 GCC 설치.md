@@ -1,10 +1,11 @@
 ---
 layout: single
+permalink: /information/
 title:  "Pwntools 설치 및 GCC 설치"
 categories: security hacking
 tag: [python, blog, jekyll, pwn, pwntools, gcc]
 toc: true
-author_profile: false
+author_profile: true
 ---
 
 <head>
