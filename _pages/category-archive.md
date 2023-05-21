@@ -1,7 +1,7 @@
 ---
 title: "머신러닝"
 permalink: /MachineRunning/
-layout: category
+layout: single
 author_profile: true
 taxonomy: 머신러닝
 ---
