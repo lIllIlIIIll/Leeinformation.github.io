@@ -2,8 +2,8 @@
 layout: single
 permalink: /information/
 title:  "Stack Buffer Overflow & Stack Canary"
-categories: coding
-tag: [python, blog, jekyll]
+categories: 정보/보안
+tag: [python, pwn, hacking]
 toc: true
 author_profile: true
 ---
