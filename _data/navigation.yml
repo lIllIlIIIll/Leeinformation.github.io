@@ -3,6 +3,6 @@ main:
   - title: "Home"
     url: https://Leeinformation.github.io
   - title: "머신러닝"
-    url: /MachineRunning
+    url: /MachineRunning/
   - title: "정보/보안"
-    url : /information
+    url : /information/
