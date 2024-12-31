@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Stack Link & Dynamic Link"
-categories: information
+categories: 정보보안
 tag: [python, pwn, hacking]
 toc: true
 author_profile: true

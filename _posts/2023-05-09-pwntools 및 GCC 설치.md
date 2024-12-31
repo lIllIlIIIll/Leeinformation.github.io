@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Pwntools 설치 및 GCC 설치"
-categories: information
+categories: 정보보안
 tag: [python, pwn, hacking]
 toc: true
 author_profile: true

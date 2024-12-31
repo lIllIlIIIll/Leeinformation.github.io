@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Stack Buffer Overflow & Stack Canary"
-categories: information
+categories:정보보안
 tag: [python, pwn, hacking]
 toc: true
 author_profile: true
