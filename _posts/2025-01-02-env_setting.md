@@ -4,7 +4,7 @@ title:  "[키움 자동매매 프로그램] 32bit 가상환경 설정"
 categories: Kiwoom
 tag: [python, coding, API]
 toc: true
-author_profile: false
+author_profile: true
 ---
 
 <head>
