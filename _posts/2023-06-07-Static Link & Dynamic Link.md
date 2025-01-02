@@ -137,7 +137,7 @@ $ readelf -s hello-world.o | grep puts
 
 위의 명령어를 실행해 보면 puts의 선언이 <stdio.h>에 있어 심볼로는 기록이 되어있지만, 이에 대한 내용은 하나도 기록되어 있지 않다.
 
-![image.png](/image/링크 readelf.png)
+![image.png](image/링크 readelf.png)
 
 
 이러한 심볼과 관련된 정보들을 찾아 최종 실행 파일에 기록하는 것이 링크가 하는 역할이다.
@@ -146,7 +146,7 @@ $ readelf -s hello-world.o | grep puts
 이제 hello-world.c를 컴파일 하고, 다음 명령어를 통해 링크되기 전과 비교한다.
 
 
-![image.png](/image/링크 컴파일.png)
+![image.png](image/링크 컴파일.png)
 
 
 libc에서 puts의 정의를 찾아 연결된다.
@@ -160,7 +160,7 @@ libc에서 puts의 정의를 찾아 연결된다.
 표준 라이브러리 경로는 다음과 같은 명령어로 확인할 수 있다.
 
 
-![image.png](/image/표준 라이브러리 경로.png)
+![image.png](image/표준 라이브러리 경로.png)
 
 
 결국 프로그램에서 puts를 호출하는 과정은 다음과 같다.
@@ -241,7 +241,7 @@ $ gcc -o dynamic hello-world.c -no-pie
 #### 용량
 
 
-![image.png](/image/용량 비교.png)
+![image.png](image/용량 비교.png)
 
 
 정적으로 생성된 파일의 용량이 동적으로 생성된 파일의 용량보다 50배 더 많은 용량을 차지하는 것을 볼 수 있다.
@@ -250,7 +250,7 @@ $ gcc -o dynamic hello-world.c -no-pie
 #### 호출 방법
 
 
-![image.png](/image/호출 방법.png)
+![image.png](image/호출 방법.png)
 
 
 위의 사진에서 왼쪽이 static, 오른쪽이 dynamic이다.
@@ -337,7 +337,7 @@ puts의 GOT 엔트리에는 아직 puts의 주소를 찾기 전이기 때문에,
 밑의 사진을 보자.
 
 
-![image.png](/image/got&plt.png)
+![image.png](image/got&plt.png)
 
 
 got 명령어를 실행하면 puts의 GOT 엔트리인 0x404000에는 함수의 주소 대신 plt 섹션 어딘가의 주소 0x401036이 저장되어있다.
