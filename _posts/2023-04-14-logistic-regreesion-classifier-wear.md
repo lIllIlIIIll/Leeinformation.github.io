@@ -175,7 +175,7 @@ sigmoid 함수는 S자 모양의 곡선을 가지고 해당 곡선은 sigmoid �
 
 
 
-![image.png](/image/sigmoid function.png)
+![image.png](/image/sigmoid_function.png)
 
 
 > > ### 결정 경계
@@ -215,7 +215,7 @@ p < 0.5 → class = 0
 
 
 
-![image.png](/image/sigmoid function and Decision Bound.png)
+![image.png](/image/sigmoid_function_and_Decision Bound.png)
 
 
 > > ### 예측 함수
