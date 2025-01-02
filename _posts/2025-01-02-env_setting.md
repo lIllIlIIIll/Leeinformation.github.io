@@ -204,7 +204,7 @@ print(platform.architecture())
 위의 코드로 32bit의 환경인지 확인한다. 다음과 같이 나오면 성공
 
 
-![image.png](image/python_명령어.png)
+![image.png](./image/python_명령어.png)
 
 
 
