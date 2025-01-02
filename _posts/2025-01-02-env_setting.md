@@ -165,7 +165,7 @@ python 버전은 3.8로 사용한다. (높은 버전을 쓰면 키움 OpenAPI �
 해당 명령어를 실행하면 (base) → (pykiwoom_32) 로 바뀐 것을 볼 수 있다.
 
 
-![image.png](/image/conda_activate-pykiwoom_32.png)
+![image.png](/image/conda_activate_pykiwoom_32.png)
 
 
 
