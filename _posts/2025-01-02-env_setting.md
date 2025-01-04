@@ -136,6 +136,7 @@ anaconda와 키움 OpenAPI가 설치되었다면 32bit의 가상환경을 구성
 
 
 ![image.png](./image/conda_info.png)
+![image.png](https://github.com/lIllIlIIIll/Leeinformation.github.io/blob/master/_posts/image/conda_info.png?raw=true)
 
 **platform : win-32**로 나오면 성공
 
