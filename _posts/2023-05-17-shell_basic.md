@@ -260,5 +260,5 @@ p.interactive()
 
 ```
 
-![image.png](./image/shell_basic_shellcode.png)
+![image.png](https://github.com/lIllIlIIIll/Leeinformation.github.io/blob/master/_posts/image/shell_basic_shellcode.png?raw=true)
 
