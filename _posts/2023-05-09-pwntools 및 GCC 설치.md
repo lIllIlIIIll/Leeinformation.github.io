@@ -192,7 +192,7 @@ g++ -v
 
 다음과 같은 창이 뜬다면 설치 완료
 
-![image.png](https://github.com/lIllIlIIIll/Leeinformation.github.io/blob/master/_posts/image/gcc_.버전_확인.png?raw=true)
+![image.png](https://github.com/lIllIlIIIll/Leeinformation.github.io/blob/master/_posts/image/gcc_버전_확인.png?raw=true)
 
 pwntools과 바이너리 설치가 모두 끝났다.
 

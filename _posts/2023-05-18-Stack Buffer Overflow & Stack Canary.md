@@ -144,7 +144,7 @@ author_profile: true
 
 밑의 그림을 통해 더 쉽게 이해가 가능하다.
 
-![image.jpeg](https://github.com/lIllIlIIIll/Leeinformation.github.io/blob/master/_posts/image/스택_구조.png?raw=true)
+![image.jpeg](https://github.com/lIllIlIIIll/Leeinformation.github.io/blob/master/_posts/image/스택_구조.jpeg?raw=true)
 
 
 따라서, 버퍼 오버플로우는 일반적으로 어느 메모리 영역에서 발생하여도, 보안에 있어 큰 위협으로 이어진다.
