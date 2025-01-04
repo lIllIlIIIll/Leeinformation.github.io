@@ -166,7 +166,7 @@ https://sourceforge.net/projects/mingw-w64/files/
 시스템 변수에서 Path에 해당하는 값을 편집으로 다음과 같이 하나 추가한다.
 
 
-![image.jpg](/image/환경_변수_편집.jpg)
+![image.jpg](./image/환경_변수_편집.jpg)
 
 
 터미널을 열어 다음과 같은 명령어를 실행한다.
@@ -192,7 +192,7 @@ g++ -v
 
 다음과 같은 창이 뜬다면 설치 완료
 
-![image.png](/image/gcc_버전_확인.png)
+![image.png](./image/gcc_버전_확인.png)
 
 pwntools과 바이너리 설치가 모두 끝났다.
 

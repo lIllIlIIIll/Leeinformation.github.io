@@ -137,7 +137,6 @@ anaconda와 키움 OpenAPI가 설치되었다면 32bit의 가상환경을 구성
 
 ![image.png](./image/conda_info.png)
 
-
 **platform : win-32**로 나오면 성공
 
 
