@@ -146,6 +146,8 @@ anaconda와 키움 OpenAPI가 설치되었다면 32bit의 가상환경을 구성
 **platform : win-32**로 나오면 성공
 
 
+***
+
 
 - conda create -n pykiwoom_32 python=3.8
 
@@ -157,6 +159,9 @@ anaconda와 키움 OpenAPI가 설치되었다면 32bit의 가상환경을 구성
 
 python 버전은 3.8로 사용한다. (높은 버전을 쓰면 키움 OpenAPI 몇몇의 기능이 작동하지 않는 현상이 발생)
 
+
+
+***
 
 
 - conda activate pykiwoom_32
@@ -174,6 +179,10 @@ python 버전은 3.8로 사용한다. (높은 버전을 쓰면 키움 OpenAPI �
 
 
 
+***
+
+
+
 - conda config --env --set subdir win-32
 
 
@@ -182,11 +191,19 @@ python 버전은 3.8로 사용한다. (높은 버전을 쓰면 키움 OpenAPI �
 
 
 
+***
+
+
+
 - conda install python=3.8
 
 
 
 파이썬을 3.8 버전으로 다시 설치해준다.
+
+
+
+***
 
 
 
@@ -213,6 +230,10 @@ print(platform.architecture())
 
 
 
+***
+
+
+
 - exit()
 
 
@@ -221,11 +242,19 @@ python 코드를 실행할 수 있는 콘솔 환경에서 나간다.
 
 
 
+***
+
+
+
 - conda deactivate
 
 
 
 현재의 가상환경(pykiwoom_32)에서 기본 환경(base)로 돌아간다.
+
+
+
+***]
 
 
 
