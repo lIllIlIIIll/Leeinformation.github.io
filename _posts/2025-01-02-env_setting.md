@@ -135,7 +135,6 @@ anaconda와 키움 OpenAPI가 설치되었다면 32bit의 가상환경을 구성
 전환 후 **conda info** 명령어를 통해 32비트 환경으로 바뀌었는지 확인할 수 있다.
 
 
-![image.png](./image/conda_info.png)
 ![image.png](https://github.com/lIllIlIIIll/Leeinformation.github.io/blob/master/_posts/image/conda_info.png?raw=true)
 
 **platform : win-32**로 나오면 성공
@@ -165,7 +164,7 @@ python 버전은 3.8로 사용한다. (높은 버전을 쓰면 키움 OpenAPI �
 해당 명령어를 실행하면 (base) → (pykiwoom_32) 로 바뀐 것을 볼 수 있다.
 
 
-![image.png](./image/conda_activate_pykiwoom_32.png)
+![image.png](https://github.com/lIllIlIIIll/Leeinformation.github.io/blob/master/_posts/image/conda_activate_pykiwoom_32.png?raw=true)
 
 
 
@@ -204,7 +203,7 @@ print(platform.architecture())
 위의 코드로 32bit의 환경인지 확인한다. 다음과 같이 나오면 성공
 
 
-![image.png](./image/python_명령어.png)
+![image.png](https://github.com/lIllIlIIIll/Leeinformation.github.io/blob/master/_posts/image/python_명령어.png?raw=true)
 
 
 
