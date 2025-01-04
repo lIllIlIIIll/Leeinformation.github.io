@@ -117,7 +117,7 @@ anaconda와 키움 OpenAPI가 설치되었다면 32bit의 가상환경을 구성
     - conda config --env --set subdir win-64
 
 
-======================
+***
 
 
 각각의 명령어가 어떤 의미인지 알아보면
