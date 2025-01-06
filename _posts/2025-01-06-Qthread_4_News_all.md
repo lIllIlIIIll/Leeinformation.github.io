@@ -401,6 +401,8 @@ print(str(soup)[:length])
 
 이 부분을 추출하려면 다음과 같이 코드를 작성하면 된다.
 
+***
+
 
 
 ```python
@@ -419,6 +421,10 @@ print(a, b, c, d)
 <pre>
 1,465.30 하락 5.70 -0.39%
 </pre>
+
+***
+
+
 여기서 유의할 점은 **span class**는 두 종류이다.
 
 
@@ -516,6 +522,9 @@ def US_Exchange_Rate(self) :
     self.parent.exchange_5.setAlignment(Qt.AlignVCenter | Qt.AlignRight)
 
 ```
+
+
+***
 
 
 
