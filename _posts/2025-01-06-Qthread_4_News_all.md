@@ -354,15 +354,15 @@ length = 300
 print(str(soup)[:length])
 ```
 
-<pre>
-
-```markdown
-<!DOCTYPE html>
- <html lang="ko"><head> <meta charset="utf-8"/> <meta content="always" name="referrer"/> <meta content="telephone=no,address=no,email=no" name="format-detection"/> <meta content="환율 : 네이버 검색" property="og:title"> <meta content="https://ssl.pstatic.net/sstatic/search/common/og_v3.png"
- ......
-```
-
-</pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="ko"&gt;
+&lt;head&gt;
+    &lt;meta charset="utf-8"/&gt;
+    &lt;meta content="always" name="referrer"/&gt;
+    &lt;meta content="telephone=no,address=no,email=no" name="format-detection"/&gt;
+    &lt;meta content="환율 : 네이버 검색" property="og:title"&gt;
+    &lt;meta content="https://ssl.pstatic.net/sstatic/search/common/og_v3.png"/&gt;
+&lt;/head&gt;
 
 
 우리가 현재 **환율** 페이지에서 얻고 싶은 정보는 환율 가격, 전일 대비 증가 가격, 전일 대비 증가율이다.(환율 기준)
