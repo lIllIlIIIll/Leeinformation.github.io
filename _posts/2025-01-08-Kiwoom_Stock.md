@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "[키움 자동매매 프로그램] - 조건식 자동매매 페이지(Kiwoom_Stock.py) 구현"
+title:  "[키움 자동매매 프로그램] - 조건식 자동매매 페이지(Kiwoom_Stock.py)"
 categories: Kiwoom
 tag: [python, coding, API]
 toc: true
@@ -177,6 +177,8 @@ class Forthwindow(QMainWindow, QWidget, form_forthwindow) :
         
 
         self.Start_Auto.clicked.connect(self.start_stock)
+
+        self.Stop_Everything.clicked.connect(self.stop_stock)
 
         
 
@@ -732,6 +734,13 @@ def search_stock_auto(self) :
     h10 = Thread10(self)
 
     h10.start()
+
+def stop_stock(self) :
+    print("조건검색 자동매매 종료")
+
+    if hasattr(self, 'h9'):
+        self.h9.quit()
+        self.h9.wait(5000)
 
 ```
 
