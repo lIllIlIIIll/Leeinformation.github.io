@@ -94,7 +94,7 @@ Upstage에서 개발한 **Solar** 모델을 프롬프트 엔지니어링하는 �
 
 
 
-https://github.com/UpstageAI/solar-prompt-cookbook
+[프롬프트 엔지니어링](https://github.com/UpstageAI/solar-prompt-cookbook)
 
 
 
@@ -129,7 +129,7 @@ https://github.com/UpstageAI/solar-prompt-cookbook
 
 
 
-    - 상호 작용을 하려는 특정 모델
+- 상호 작용을 하려는 특정 모델
 
 
 **Max_Tokens** :
