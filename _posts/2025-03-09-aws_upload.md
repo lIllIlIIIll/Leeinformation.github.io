@@ -112,7 +112,7 @@ author_profile: false
 보안그룹의 경우 아래 이미지와 같이 HTTP, SSH, HTTPS와 실제 모델 예측을 받아올 때 사용할 5000번 포트까지 설정해주었다.(443으로 접속하려 했으나 명령어에 sudo를 붙여줘야하는 불편함이 매번 있어 1000번 이후대로 포트 번호를 따로 지정해주었다.)
 
 
-![image.png](https://github.com/lIllIlIIIll/Leeinformation.github.io/blob/master/_posts/image/보안그룹.png?raw=true)
+![image.png](https://github.com/lIllIlIIIll/Leeinformation.github.io/blob/master/_posts/image/보안그룹.PNG?raw=true)
 
 
 
@@ -124,7 +124,7 @@ author_profile: false
 
 
 
-![image.png](https://github.com/lIllIlIIIll/Leeinformation.github.io/blob/master/_posts/image/S3.png?raw=true)
+![image.png](https://github.com/lIllIlIIIll/Leeinformation.github.io/blob/master/_posts/image/S3.PNG?raw=true)
 
 
 
@@ -138,7 +138,7 @@ author_profile: false
 .ssh 폴더에는 키 파일과 LSTM모델을 정의하고 데이터를 전처리하는 파일, 실제 코드를 수행하는 파일이 존재한다.
 
 
-![image.png](https://github.com/lIllIlIIIll/Leeinformation.github.io/blob/master/_posts/image/ssh폴더.png?raw=true)
+![image.png](https://github.com/lIllIlIIIll/Leeinformation.github.io/blob/master/_posts/image/ssh폴더.PNG?raw=true)
 
 
 
@@ -703,7 +703,7 @@ aws s3 cp s3://jmstore/scaler.pkl /home/ubuntu/scaler.pkl
 
 
 
-![image.png](https://github.com/lIllIlIIIll/Leeinformation.github.io/blob/master/_posts/image/업로드확인.png?raw=true)
+![image.png](https://github.com/lIllIlIIIll/Leeinformation.github.io/blob/master/_posts/image/업로드확인.PNG?raw=true)
 
 
 
@@ -732,7 +732,7 @@ nohup /home/ubuntu/myenv/bin/python3 /home/ubuntu/predict.py > server.log 2>&1 &
 해당 명령어로 백그라운드 실행 후 확인해 보면 다음과 같이 프로세스가 실행 중임을 확인할 수 있다.
 
 
-![image.png](https://github.com/lIllIlIIIll/Leeinformation.github.io/blob/master/_posts/image/프로세스_실행_확인.png?raw=true)
+![image.png](https://github.com/lIllIlIIIll/Leeinformation.github.io/blob/master/_posts/image/프로세스_실행_확인.PNG?raw=true)
 
 
 
@@ -743,7 +743,7 @@ nohup /home/ubuntu/myenv/bin/python3 /home/ubuntu/predict.py > server.log 2>&1 &
 
 
 
-![image.png](https://github.com/lIllIlIIIll/Leeinformation.github.io/blob/master/_posts/image/응답_테스트.png?raw=true)
+![image.png](https://github.com/lIllIlIIIll/Leeinformation.github.io/blob/master/_posts/image/응답_테스트.PNG?raw=true)
 
 
 
