@@ -2,7 +2,7 @@
 layout: single
 title:  "[데이콘-Private 16위] 웹 로그 기반 조회수 예측"
 categories: AI
-tag: [python, Machine Running]
+tag: [python, Machine Learning]
 toc: true
 author_profile: false
 ---

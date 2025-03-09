@@ -2,7 +2,7 @@
 layout: single
 title:  "시황 분석 LSTM 모델 훈련"
 categories: AI
-tag: [python, coding, Machine Running]
+tag: [python, coding, Machine Learning]
 toc: true
 author_profile: false
 ---

@@ -2,7 +2,7 @@
 layout: single
 title:  "프롬프트 엔지니어링 - 2. 직접적이고 명확한 프롬프트"
 categories: AI
-tag: [python, Machine Running, Prompt Engineering]
+tag: [python, Machine Learning, Prompt Engineering]
 toc: true
 author_profile: true
 ---

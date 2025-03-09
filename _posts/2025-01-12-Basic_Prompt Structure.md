@@ -2,7 +2,7 @@
 layout: single
 title:  "프롬프트 엔지니어링 - 1. 기본 프롬프트 구조"
 categories: AI
-tag: [python, Machine Running, Prompt Engineering]
+tag: [python, Machine Learning, Prompt Engineering]
 toc: true
 author_profile: true
 ---

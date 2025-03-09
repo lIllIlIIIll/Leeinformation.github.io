@@ -2,7 +2,7 @@
 layout: single
 title:  "프롬프트 엔지니어링 - 3. 5가지 프롬프트 핵심 요소와 유형"
 categories: AI
-tag: [python, Machine Running, Prompt Engineering]
+tag: [python, Machine Learning, Prompt Engineering]
 toc: true
 author_profile: true
 ---

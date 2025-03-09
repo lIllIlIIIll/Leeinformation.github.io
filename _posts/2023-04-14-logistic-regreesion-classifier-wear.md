@@ -2,7 +2,7 @@
 layout: single
 title:  "Logistic Regression Classifier - weatherAUC"
 categories: AI
-tag: [python, Machine Running, coding]
+tag: [python, Machine Learning, coding]
 toc: true
 author_profile: true
 ---
