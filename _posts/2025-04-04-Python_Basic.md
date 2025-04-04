@@ -1,8 +1,8 @@
 ---
 layout: single
-title:  "[AI 부트캠프] 프로젝트 수행을 위한 이론 Python - 기초"
+title: "[AI 부트캠프] 프로젝트 수행을 위한 이론 Python - 기초"
 categories: Bootcamp
-tag: [#패스트캠퍼스, #패스트캠퍼스AI부트캠프, #업스테이지패스트캠퍼스, #UpstageAILab, #국비지원, #패스트캠퍼스업스테이지에이아이랩, #패스트캠퍼스업스테이지부트캠프]
+tag: [패스트캠퍼스, 패스트캠퍼스AI부트캠프, 업스테이지패스트캠퍼스, UpstageAILab, 국비지원, 패스트캠퍼스업스테이지에이아이랩, 패스트캠퍼스업스테이지부트캠프]
 toc: true
 author_profile: false
 ---
