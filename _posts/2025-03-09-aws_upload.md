@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "AWS를 활용한 LSTM 모델 예측 시스템 구축"
-categories: 
+categories: Kiwoom
 tag: [python, AWS, coding, Machine Learning]
 toc: true
 author_profile: false
