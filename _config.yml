@@ -192,9 +192,6 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # Conversion
 markdown: kramdown
-kramdown:
-  input: GFM
-  math_engine: mathjax
 mathjax: true
 highlighter: rouge
 lsi: false
@@ -205,6 +202,7 @@ incremental: false
 # Markdown Processing
 kramdown:
   input: GFM
+  math_engine: mathjax
   hard_wrap: false
   auto_ids: true
   footnote_nr: 1
