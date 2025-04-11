@@ -215,7 +215,7 @@ p < 0.5 → class = 0
 
 
 
-![image.png](https://github.com/lIllIlIIIll/Leeinformation.github.io/blob/master/_posts/image/sigmoid_function_and_dDecision_Bound.png?raw=true)
+![image.png](https://github.com/lIllIlIIIll/Leeinformation.github.io/blob/master/_posts/image/sigmoid_function_and_Decision_Bound.png?raw=true)
 
 
 > > ### 예측 함수
