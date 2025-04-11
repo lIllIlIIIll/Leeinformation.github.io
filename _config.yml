@@ -192,6 +192,10 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # Conversion
 markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: mathjax
+mathjax: true
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
