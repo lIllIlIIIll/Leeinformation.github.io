@@ -270,19 +270,12 @@ author_profile: false
 
 
  | 특징             | RDBMS (예: MySQL, SQLite)    | NoSQL (예: MongoDB, Redis)       | 설명                                                 |
-
  | :--------------- | :--------------------------- | :------------------------------- | :--------------------------------------------------- |
-
  | **데이터 모델** | **관계형 (표)** | 문서형, Key-Value, 컬럼형, 그래프형 등 | 다양한 데이터 구조 지원 (NoSQL)                     |
-
  | **스키마** | **엄격함 (Fixed)** | **유연함 (Flexible) / 없음** | 데이터 구조 변경 용이 (NoSQL) 🔵                     |
-
  | **확장성** | 주로 수직적 확장 (Scale-up)  | 주로 **수평적 확장 (Scale-out)** | 대규모 트래픽/데이터 처리 용이 (NoSQL) 🚀              |
-
  | **일관성 (Consistency)** | **강력** (ACID 보장)       | **결과적 일관성 (Eventual)** 등  | 일관성 수준 조절 가능 (NoSQL, Trade-off 존재) ⚠️   |
-
  | **데이터 종류** | **정형 데이터** 최적화       | **비정형/반정형/정형** 모두 가능 | 다양한 형태의 데이터 저장 용이 (NoSQL) 🔵            |
-
  | **쿼리 언어** | **SQL** (표준)             | DB별 다양한 API / 쿼리 언어      | SQL 외 다양한 인터페이스 사용 (NoSQL)
 
  ***        
@@ -297,7 +290,7 @@ author_profile: false
 
 
 
-![image.png](https://github.com/lIllIlIIIll/Leeinformation.github.io/blob/master/_posts/image/Bootcamp/MongoDB 예시.PNG?raw=true)
+![image.png](https://github.com/lIllIlIIIll/Leeinformation.github.io/blob/master/_posts/image/Bootcamp/MongoDB_예시.PNG?raw=true)
 
 
 
@@ -423,15 +416,10 @@ TCP/IP : 인터넷 표준 모델로, 실제 인터넷 통신에서 사용되는 
 
 
 | 계층 | 역할 | 관련 프로토콜 |
-
 |------|------|----------------|
-
 | 4. 애플리케이션 계층 | 사용자 서비스 제공 | HTTP, FTP, SMTP, DNS 등 |
-
 | 3. 전송 계층 | 데이터 흐름 제어, 오류 제어 | TCP, UDP |
-
 | 2. 인터넷 계층 | 라우팅, 주소 지정 | IP, ICMP, ARP |
-
 | 1. 네트워크 인터페이스 계층 | 물리적 데이터 전송 | Ethernet, Wi-Fi 등 |
 
 
@@ -601,7 +589,7 @@ VSCode와 연동시켜 지금까지 했던 프로젝트, 코드 등을 그대로
 
 
 
-![image.png](https://github.com/lIllIlIIIll/Leeinformation.github.io/blob/master/_posts/image/Bootcamp/Windsurf 활용.PNG?raw=true)
+![image.png](https://github.com/lIllIlIIIll/Leeinformation.github.io/blob/master/_posts/image/Bootcamp/Windsurf_활용.PNG?raw=true)
 
 
 
