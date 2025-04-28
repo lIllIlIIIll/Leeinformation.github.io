@@ -108,7 +108,6 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "막 졸업한 초보 개발자의 기록들"
   location         : "Korea - Incheon"
-  email            : "dst7853@gmail.com"
 
   links:
     - label: "dst7853@gmail.com"
