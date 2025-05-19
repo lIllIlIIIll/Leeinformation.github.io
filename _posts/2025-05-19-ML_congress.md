@@ -117,12 +117,12 @@ author_profile: false
 
 
 
-![image.png](https://github.com/lIllIlIIIll/Leeinformation.github.io/blob/master/_posts/image/Bootcamp/train_missing.PNG?raw=true)
+![image.png](https://github.com/lIllIlIIIll/Leeinformation.github.io/blob/master/_posts/image/Bootcamp/train_missing.png?raw=true)
 
 
 
 
-![image.png](https://github.com/lIllIlIIIll/Leeinformation.github.io/blob/master/_posts/image/Bootcamp/test_missing.PNG?raw=true)
+![image.png](https://github.com/lIllIlIIIll/Leeinformation.github.io/blob/master/_posts/image/Bootcamp/test_missing.png?raw=true)
 
 
 
@@ -265,7 +265,7 @@ author_profile: false
 
 
 
-![image.png](https://github.com/lIllIlIIIll/Leeinformation.github.io/blob/master/_posts/image/Bootcamp/first_cluster.PNG?raw=true)
+    ※ ![image.png](https://github.com/lIllIlIIIll/Leeinformation.github.io/blob/master/_posts/image/Bootcamp/first_cluster.png?raw=true)
 
 
 
@@ -273,7 +273,7 @@ author_profile: false
 
 
 
-![image.png](https://github.com/lIllIlIIIll/Leeinformation.github.io/blob/master/_posts/image/Bootcamp/second_cluster.PNG?raw=true)
+    ※ ![image.png](https://github.com/lIllIlIIIll/Leeinformation.github.io/blob/master/_posts/image/Bootcamp/second_cluster.png?raw=true)
 
 
 
