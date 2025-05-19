@@ -265,7 +265,7 @@ author_profile: false
 
 
 
-    ※ ![image.png](https://github.com/lIllIlIIIll/Leeinformation.github.io/blob/master/_posts/image/Bootcamp/first_cluster.PNG?raw=true)
+![image.png](https://github.com/lIllIlIIIll/Leeinformation.github.io/blob/master/_posts/image/Bootcamp/first_cluster.PNG?raw=true)
 
 
 
@@ -273,7 +273,7 @@ author_profile: false
 
 
 
-    ※ ![image.png](https://github.com/lIllIlIIIll/Leeinformation.github.io/blob/master/_posts/image/Bootcamp/second_cluster.PNG?raw=true)
+![image.png](https://github.com/lIllIlIIIll/Leeinformation.github.io/blob/master/_posts/image/Bootcamp/second_cluster.PNG?raw=true)
 
 
 
