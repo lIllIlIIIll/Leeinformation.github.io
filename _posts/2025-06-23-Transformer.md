@@ -212,7 +212,7 @@ LSTM, GRU와 같은 RNN은 sequence 모델링 및 변환에서 SOTA
 
 
 
-- ***Decoder*** : 연속 표현 ($z_1, z_2, z_n$) → 출력 sequence ($y_1, y_2, ..., y_n$) 생성
+- ***Decoder*** : 연속 표현 ($$z_1, z_2, ..., z_n$$) → 출력 sequence ($$y_1, y_2, ..., y_n$$) 생성
 
 
 ## Encoder and Decoder Stacks
@@ -232,7 +232,7 @@ LSTM, GRU와 같은 RNN은 sequence 모델링 및 변환에서 SOTA
 
     - 이 각각의 sub-layer에 잔차 연결을 적용한 다음 layer 정규화를 적용
 
-    - 출력은 $LayerNorm(x + Sublayer(x))$
+    - 출력은 $$LayerNorm(x + Sublayer(x))$$
 
     - 모델의 모든 sub-layer와 embbeding의 출력 차원은 512
 
@@ -266,17 +266,17 @@ LSTM, GRU와 같은 RNN은 sequence 모델링 및 변환에서 SOTA
 
 
 
-    - 입력 : Query, $d_k$(Key), $d_v$(Value)
+    - 입력 : Query, $$d_k$$(Key), $$d_v$$(Value)
 
-    - 출력 : $Attention(Q, K, V) = softmax\left(\frac{QK^T}{\sqrt{d_k}}\right)V$
+    - 출력 : $$Attention(Q, K, V) = softmax\left(\frac{QK^T}{\sqrt{d_k}}\right)V$$
 
-        - ${QK^T}$ : 모든 Query와 모든 Key의 내적 → 유사도 계산 → 각 단어들의 문법적, 의미적 연관 확인
+        - $${QK^T}$$ : 모든 Query와 모든 Key의 내적 → 유사도 계산 → 각 단어들의 문법적, 의미적 연관 확인
 
-        - $\left(1/\sqrt{d_k}\right)$ : Query와 Key의 차원이 커질수록 내적 값이 커지므로, Query와 Key의 차원을 제곱근으로 나눠서 정규화 (스케일링)
+        - $$\left(1/\sqrt{d_k}\right)$$ : Query와 Key의 차원이 커질수록 내적 값이 커지므로, Query와 Key의 차원을 제곱근으로 나눠서 정규화 (스케일링)
 
             
 
-            ★ $\left(\frac{QK^T}{\sqrt{d_k}}\right)$ : Attention scores 계산
+            ★ $$\left(\frac{QK^T}{\sqrt{d_k}}\right)$$ : Attention scores 계산
 
 
 
@@ -284,7 +284,7 @@ LSTM, GRU와 같은 RNN은 sequence 모델링 및 변환에서 SOTA
 
 
 
-        - $V$ : Value와 가중합을 취함으로써 가장 확률 분포로 변환된 Attention scores를 기반으로 확률에 비례하여 모든 Value를 가중 평균
+        - $$V$$ : Value와 가중합을 취함으로써 가장 확률 분포로 변환된 Attention scores를 기반으로 확률에 비례하여 모든 Value를 가중 평균
 
 
 
@@ -319,11 +319,11 @@ LSTM, GRU와 같은 RNN은 sequence 모델링 및 변환에서 SOTA
 
 
 
-    - $MultiHead(Q, K, V) = Concat(head_1, head_2, ..., head_h) * W^O$
+    - $$MultiHead(Q, K, V) = Concat(head_1, head_2, ..., head_h) * W^O$$
 
-    - $head_i = Attention(Q * W^Q_i, K * W^K_i, V * W^V_i)$
+    - $$head_i = Attention(Q * W^Q_i, K * W^K_i, V * W^V_i)$$
 
-        - 각 헤드의 가중치($W$)가 다름 → 서로 다른 관점에서 해석
+        - 각 헤드의 가중치($$W$$)가 다름 → 서로 다른 관점에서 해석
 
 
 
@@ -386,7 +386,7 @@ Attention에는 sub-layers 이외에도 완전 연결 피드 포워드 네트워
 
     - 두 개의 선형 변환과 사이에 ReLU 활성화 함수 적용
 
-    - $FFN(x) = max(0, xW_1 + b_1)W_2 + b_2$
+    - $$FFN(x) = max(0, xW_1 + b_1)W_2 + b_2$$
 
 
 
@@ -444,11 +444,11 @@ Transformer에는 순환 및 합성곱 존재 X → 순서 정보를 모름
 
 
 
-- $PE(pos, 2i) = sin(pos/1000^{2i/d_{model}})$
+- $$PE(pos, 2i) = sin(pos/1000^{2i/d_{model}})$$
 
 
 
-- $PE(pos, 2i+1) = cos(pos/1000^{2i/d_{model}})$
+- $$PE(pos, 2i+1) = cos(pos/1000^{2i/d_{model}})$$
 
 
 
@@ -462,7 +462,7 @@ Transformer에는 순환 및 합성곱 존재 X → 순서 정보를 모름
 
 
 
-> $PE(pos+k) = T_K \times PE(pos)$
+> $$PE(pos+k) = T_K \times PE(pos)$$
 
 
 
@@ -470,7 +470,7 @@ Transformer에는 순환 및 합성곱 존재 X → 순서 정보를 모름
 
 
 
-    - $T_K$는 **거리 K**를 변환 행렬로 구현한 것 → 삼각함수의 덧셈정리로 구현
+    - $$T_K$$는 **거리 K**를 변환 행렬로 구현한 것 → 삼각함수의 덧셈정리로 구현
 
 
 
@@ -482,7 +482,7 @@ Transformer에는 순환 및 합성곱 존재 X → 순서 정보를 모름
 
 
 
-- 상대적 구조를 표현하는 것이 $T_K$
+- 상대적 구조를 표현하는 것이 $$T_K$$
 
 
 # Why Self-Attention
@@ -517,17 +517,11 @@ RNN/CNN 대신 Self-Attention을 사용한 이유
 ***
 
 | Layer Type | Complexity per Layer | Sequential Operations | Maximum Path Length |
-
 |------------|---------------------|---------------------|-------------------|
-
-| Self-Attention | $O(n² · d)$ | $O(1)$ | $O(n)$ |
-
-| Recurrent | $O(n · d²)$ | $O(n)$ | $O(n)$ |
-
-| Convolutional | $O(k · n · d²)$ | $O(1)$ | $O(log_k(n))$ |
-
-| Self-Attention (restricted) | $O(r · n · d)$ | $O(1)$ | $O(n/r)$ |
-
+| Self-Attention | $$O(n² · d)$$ | $$O(1)$$ | $$O(n)$$ |
+| Recurrent | $$O(n · d²)$$ | $$O(n)$$ | $$O(n)$$ |
+| Convolutional | $$O(k · n · d²)$$ | $$O(1)$$ | $$O(log_k(n))$$ |
+| Self-Attention (restricted) | $$O(r · n · d)$$ | $$O(1)$$ | $$O(n/r)$$ |
 
 
 ***
@@ -549,7 +543,7 @@ RNN/CNN 대신 Self-Attention을 사용한 이유
 
 
 
-    - RNN : 순차적 계산이 필수적 → $O(n)$
+    - RNN : 순차적 계산이 필수적 → $$O(n)$$
 
     - CNN : 병렬 처리 가능
 
@@ -561,17 +555,17 @@ RNN/CNN 대신 Self-Attention을 사용한 이유
 
 
 
-    - RNN : 순차적으로 계산되어 전달되므로 $O(n)$
+    - RNN : 순차적으로 계산되어 전달되므로 $$O(n)$$
 
-    - 단일 CNN : sequence 길이 n에 대하여 k개의 커널이 필요함 → $O(n/k)$
+    - 단일 CNN : sequence 길이 n에 대하여 k개의 커널이 필요함 → $$O(n/k)$$
 
-    - 확장 CNN : 간격을 넓혀서 더 넓은 범위를 연결 → $O(log_k(n))$
+    - 확장 CNN : 간격을 넓혀서 더 넓은 범위를 연결 → $$O(log_k(n))$$
 
-    - Self-Attention : 모든 위치 쌍이 직접 연결되어 있으므로 $O(1)$
+    - Self-Attention : 모든 위치 쌍이 직접 연결되어 있으므로 $$O(1)$$
 
 
 
-- 매우 긴 sequence를 처리할 때 계산 성능 향상을 위해 출력 위치 중심으로 입력 sequence에서 $r$만큼으로 이웃 제한 → 장거리 의존성이 $O(n/r)$로 증가
+- 매우 긴 sequence를 처리할 때 계산 성능 향상을 위해 출력 위치 중심으로 입력 sequence에서 $$r$$만큼으로 이웃 제한 → 장거리 의존성이 $$O(n/r)$$로 증가
 
 
 
